@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://beranda.maarif.nu.or.id/sitemap.xml
+
+# Disallow sensitive directories
+Disallow: /admin/
+Disallow: /config/
+Disallow: /includes/
+Disallow: /logs/
+Disallow: /*.log$
+
+# Allow important files
+Allow: /assets/
+Allow: /css/
+Allow: /js/
+Allow: /img/
+Allow: /images/
+
+# Crawl delay (optional)
+Crawl-delay: 1
